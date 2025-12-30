@@ -13,12 +13,19 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Trust proxy for cloud hosting (Render, etc.)
+app.set('trust proxy', 1);
+
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: [
+    process.env.FRONTEND_URL,
+    'http://localhost:5173'
+  ].filter(Boolean),
   credentials: true
 }));
 app.use(express.json());
@@ -80,10 +87,10 @@ app.use((req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`\n🚀 Revision Platform Backend Server`);
-  console.log(`📡 Server running on http://localhost:${PORT}`);
-  console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`✅ Ready to accept requests\n`);
+  console.log('\nRevision Platform Backend Server');
+  console.log(`Server running on port ${PORT}`);
+  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log('Ready to accept requests\n');
 });
 
 export default app;
