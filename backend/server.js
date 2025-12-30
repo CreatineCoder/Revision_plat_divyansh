@@ -21,17 +21,9 @@ const PORT = process.env.PORT || 3001;
 app.set('trust proxy', 1);
 
 // Middleware
-app.use(cors({
-  origin: [
-    process.env.FRONTEND_URL,
-    'http://localhost:5173'
-  ].filter(Boolean),
-  credentials: true
-}));
+app.use(cors({ origin: '*', methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], allowedHeaders: ['Content-Type', 'Authorization'] }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-  const cors = require('cors');
-  app.use(cors({ origin: '*', methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], allowedHeaders: ['Content-Type', 'Authorization'] }));
 
 // Request logging middleware
 app.use((req, res, next) => {
