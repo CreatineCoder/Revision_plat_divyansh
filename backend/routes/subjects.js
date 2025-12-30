@@ -5,13 +5,17 @@ import { dirname, join } from 'path';
 
 const router = express.Router();
 const __filename = fileURLToPath(import.meta.url);
+console.log('this is filename', __filename );
 const __dirname = dirname(__filename);
+console.log("__dirname", __dirname);
 
 // Get all subjects
 router.get('/', (req, res) => {
   try {
     const dataPath = join(__dirname, '../data/subjects.json');
+    console.log("dataPath", dataPath);
     const data = readFileSync(dataPath, 'utf-8');
+    console.log("data", data);
     const subjects = JSON.parse(data);
     res.json(subjects);
   } catch (error) {
