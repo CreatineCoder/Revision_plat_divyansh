@@ -1,194 +1,538 @@
 [
   {
-    "id": "physics-1",
-    "subjectId": "physics",
-    "name": "Laws of Motion",
-    "description": "Newton's three laws and their applications",
-    "difficulty": "Medium",
-    "topicCount": 8
-  },
-  {
-    "id": "physics-2",
-    "subjectId": "physics",
-    "name": "Work, Energy and Power",
-    "description": "Understanding energy transformations and work done",
-    "difficulty": "Medium",
-    "topicCount": 6
-  },
-  {
-    "id": "physics-3",
-    "subjectId": "physics",
-    "name": "Gravitation",
-    "description": "Universal law of gravitation and planetary motion",
-    "difficulty": "Hard",
-    "topicCount": 7
-  },
-  {
-    "id": "physics-4",
-    "subjectId": "physics",
-    "name": "Electrostatics",
-    "description": "Electric charges, fields and potential",
-    "difficulty": "Medium",
-    "topicCount": 9
-  },
-  {
-    "id": "chemistry-1",
-    "subjectId": "chemistry",
-    "name": "Atomic Structure",
-    "description": "Understanding atoms, electrons and atomic models",
-    "difficulty": "Medium",
-    "topicCount": 7
-  },
-  {
-    "id": "chemistry-2",
-    "subjectId": "chemistry",
-    "name": "Chemical Bonding",
-    "description": "Ionic, covalent and metallic bonds",
-    "difficulty": "Hard",
-    "topicCount": 8
-  },
-  {
-    "id": "chemistry-3",
-    "subjectId": "chemistry",
-    "name": "States of Matter",
-    "description": "Solid, liquid, gas and their properties",
-    "difficulty": "Easy",
-    "topicCount": 6
-  },
-  {
-    "id": "chemistry-4",
-    "subjectId": "chemistry",
-    "name": "Chemical Reactions",
-    "description": "Types of reactions and stoichiometry",
-    "difficulty": "Medium",
-    "topicCount": 10
-  },
-  {
     "id": "math-1",
     "subjectId": "mathematics",
-    "name": "Algebra",
-    "description": "Equations, inequalities and polynomials",
-    "difficulty": "Medium",
-    "topicCount": 12
+    "name": "Real Numbers",
+    "description": "Fundamental Theorem of Arithmetic, LCM, HCF and irrational numbers",
+    "difficulty": "Easy",
+    "topicCount": 3
   },
   {
     "id": "math-2",
     "subjectId": "mathematics",
-    "name": "Trigonometry",
-    "description": "Angles, ratios and identities",
-    "difficulty": "Hard",
-    "topicCount": 9
+    "name": "Polynomials",
+    "description": "Zeroes of polynomials and relationship with coefficients",
+    "difficulty": "Medium",
+    "topicCount": 3
   },
   {
     "id": "math-3",
     "subjectId": "mathematics",
-    "name": "Calculus",
-    "description": "Differentiation and integration",
-    "difficulty": "Hard",
-    "topicCount": 11
+    "name": "Pair of Linear Equations in Two Variables",
+    "description": "Graphical and algebraic methods of solving linear pairs",
+    "difficulty": "Medium",
+    "topicCount": 4
   },
   {
     "id": "math-4",
     "subjectId": "mathematics",
+    "name": "Quadratic Equations",
+    "description": "Solving quadratics by factorization and quadratic formula",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "math-5",
+    "subjectId": "mathematics",
+    "name": "Arithmetic Progressions",
+    "description": "nth term and sum of first n terms of an AP",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "math-6",
+    "subjectId": "mathematics",
+    "name": "Triangles",
+    "description": "Similarity of triangles, BPT and other theorems",
+    "difficulty": "Hard",
+    "topicCount": 5
+  },
+  {
+    "id": "math-7",
+    "subjectId": "mathematics",
     "name": "Coordinate Geometry",
-    "description": "Lines, circles and conic sections",
-    "difficulty": "Medium",
-    "topicCount": 8
-  },
-  {
-    "id": "biology-1",
-    "subjectId": "biology",
-    "name": "Cell Structure",
-    "description": "Cell organelles and their functions",
+    "description": "Distance formula and section formula",
     "difficulty": "Easy",
-    "topicCount": 7
+    "topicCount": 2
   },
   {
-    "id": "biology-2",
-    "subjectId": "biology",
-    "name": "Genetics",
-    "description": "DNA, genes and heredity",
+    "id": "math-8",
+    "subjectId": "mathematics",
+    "name": "Introduction to Trigonometry",
+    "description": "Trigonometric ratios and identities",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "math-9",
+    "subjectId": "mathematics",
+    "name": "Some Applications of Trigonometry",
+    "description": "Heights and distances problems",
+    "difficulty": "Medium",
+    "topicCount": 2
+  },
+  {
+    "id": "math-10",
+    "subjectId": "mathematics",
+    "name": "Circles",
+    "description": "Tangents to a circle and related theorems",
+    "difficulty": "Medium",
+    "topicCount": 2
+  },
+  {
+    "id": "math-11",
+    "subjectId": "mathematics",
+    "name": "Areas Related to Circles",
+    "description": "Area of sectors and segments of a circle",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "math-12",
+    "subjectId": "mathematics",
+    "name": "Surface Areas and Volumes",
+    "description": "Surface area and volume of combined solids",
     "difficulty": "Hard",
-    "topicCount": 10
+    "topicCount": 3
   },
   {
-    "id": "biology-3",
-    "subjectId": "biology",
-    "name": "Human Physiology",
-    "description": "Body systems and their functions",
+    "id": "math-13",
+    "subjectId": "mathematics",
+    "name": "Statistics",
+    "description": "Mean, median and mode of grouped data",
     "difficulty": "Medium",
-    "topicCount": 12
+    "topicCount": 3
   },
   {
-    "id": "biology-4",
-    "subjectId": "biology",
-    "name": "Ecology",
-    "description": "Ecosystems and environmental interactions",
+    "id": "math-14",
+    "subjectId": "mathematics",
+    "name": "Probability",
+    "description": "Classical definition and simple problems",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "sci-1",
+    "subjectId": "science",
+    "name": "Chemical Reactions and Equations",
+    "description": "Balancing equations, types of reactions and corrosion",
     "difficulty": "Medium",
-    "topicCount": 8
+    "topicCount": 4
   },
   {
-    "id": "cs-1",
-    "subjectId": "computer-science",
-    "name": "Data Structures",
-    "description": "Arrays, linked lists, stacks and queues",
+    "id": "sci-2",
+    "subjectId": "science",
+    "name": "Acids, Bases and Salts",
+    "description": "pH scale, properties of acids/bases and common salts",
     "difficulty": "Medium",
-    "topicCount": 9
+    "topicCount": 5
   },
   {
-    "id": "cs-2",
-    "subjectId": "computer-science",
-    "name": "Algorithms",
-    "description": "Sorting, searching and algorithm design",
+    "id": "sci-3",
+    "subjectId": "science",
+    "name": "Metals and Non-metals",
+    "description": "Properties, reactivity series and metallurgy",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "sci-4",
+    "subjectId": "science",
+    "name": "Carbon and its Compounds",
+    "description": "Covalent bonding, homologous series and functional groups",
     "difficulty": "Hard",
-    "topicCount": 11
+    "topicCount": 5
   },
   {
-    "id": "cs-3",
-    "subjectId": "computer-science",
-    "name": "Object-Oriented Programming",
-    "description": "Classes, objects and OOP principles",
+    "id": "sci-5",
+    "subjectId": "science",
+    "name": "Life Processes",
+    "description": "Nutrition, respiration, transportation and excretion",
     "difficulty": "Medium",
-    "topicCount": 8
+    "topicCount": 4
   },
   {
-    "id": "cs-4",
-    "subjectId": "computer-science",
-    "name": "Database Management",
-    "description": "SQL, normalization and database design",
+    "id": "sci-6",
+    "subjectId": "science",
+    "name": "Control and Coordination",
+    "description": "Nervous system, reflex action and hormones",
     "difficulty": "Medium",
-    "topicCount": 7
+    "topicCount": 3
   },
   {
-    "id": "english-1",
-    "subjectId": "english",
-    "name": "Grammar and Composition",
-    "description": "Parts of speech, sentence structure and writing",
+    "id": "sci-7",
+    "subjectId": "science",
+    "name": "How do Organisms Reproduce?",
+    "description": "Asexual and sexual reproduction in plants and humans",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "sci-8",
+    "subjectId": "science",
+    "name": "Heredity",
+    "description": "Mendel's laws and sex determination",
+    "difficulty": "Hard",
+    "topicCount": 3
+  },
+  {
+    "id": "sci-9",
+    "subjectId": "science",
+    "name": "Light – Reflection and Refraction",
+    "description": "Mirrors, lenses, magnification and refractive index",
+    "difficulty": "Hard",
+    "topicCount": 5
+  },
+  {
+    "id": "sci-10",
+    "subjectId": "science",
+    "name": "The Human Eye and the Colourful World",
+    "description": "Eye defects, dispersion and atmospheric refraction",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sci-11",
+    "subjectId": "science",
+    "name": "Electricity",
+    "description": "Ohm's law, resistance, heating effect and power",
+    "difficulty": "Hard",
+    "topicCount": 5
+  },
+  {
+    "id": "sci-12",
+    "subjectId": "science",
+    "name": "Magnetic Effects of Electric Current",
+    "description": "Field lines, solenoids and domestic circuits",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sci-13",
+    "subjectId": "science",
+    "name": "Our Environment",
+    "description": "Ecosystem, food chains and ozone layer",
     "difficulty": "Easy",
-    "topicCount": 10
+    "topicCount": 2
   },
   {
-    "id": "english-2",
-    "subjectId": "english",
-    "name": "Poetry Analysis",
-    "description": "Understanding poetic devices and themes",
+    "id": "sst-hist-1",
+    "subjectId": "social-science",
+    "name": "The Rise of Nationalism in Europe",
+    "description": "French revolution and unification of Italy/Germany",
+    "difficulty": "Hard",
+    "topicCount": 4
+  },
+  {
+    "id": "sst-hist-2",
+    "subjectId": "social-science",
+    "name": "Nationalism in India",
+    "description": "Non-cooperation, Civil Disobedience and Satyagraha",
     "difficulty": "Medium",
-    "topicCount": 6
+    "topicCount": 4
   },
   {
-    "id": "english-3",
-    "subjectId": "english",
-    "name": "Prose and Fiction",
-    "description": "Short stories, novels and narrative techniques",
+    "id": "sst-hist-3",
+    "subjectId": "social-science",
+    "name": "The Making of a Global World",
+    "description": "Pre-modern world, colonialism and the Great Depression",
     "difficulty": "Medium",
-    "topicCount": 8
+    "topicCount": 4
   },
   {
-    "id": "english-4",
-    "subjectId": "english",
-    "name": "Writing Skills",
-    "description": "Essays, letters and creative writing",
+    "id": "sst-hist-4",
+    "subjectId": "social-science",
+    "name": "The Age of Industrialisation",
+    "description": "Dawn of the century, factories and market for goods",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-hist-5",
+    "subjectId": "social-science",
+    "name": "Print Culture and the Modern World",
+    "description": "History of print in Europe and India",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "sst-geo-1",
+    "subjectId": "social-science",
+    "name": "Resources and Development",
+    "description": "Types of resources, soil types and conservation",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-geo-2",
+    "subjectId": "social-science",
+    "name": "Forest and Wildlife Resources",
+    "description": "Flora and fauna, conservation projects",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-geo-3",
+    "subjectId": "social-science",
+    "name": "Water Resources",
+    "description": "Water scarcity, multi-purpose projects and harvesting",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-geo-4",
+    "subjectId": "social-science",
+    "name": "Agriculture",
+    "description": "Types of farming, cropping pattern and major crops",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "sst-geo-5",
+    "subjectId": "social-science",
+    "name": "Minerals and Energy Resources",
+    "description": "Occurrence of minerals, conventional and non-conventional energy",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "sst-geo-6",
+    "subjectId": "social-science",
+    "name": "Manufacturing Industries",
+    "description": "Importance of manufacturing, industrial location and pollution",
+    "difficulty": "Medium",
+    "topicCount": 4
+  },
+  {
+    "id": "sst-geo-7",
+    "subjectId": "social-science",
+    "name": "Lifelines of National Economy",
+    "description": "Transport, communication and international trade",
     "difficulty": "Easy",
-    "topicCount": 7
+    "topicCount": 3
+  },
+  {
+    "id": "sst-pol-1",
+    "subjectId": "social-science",
+    "name": "Power Sharing",
+    "description": "Belgium and Sri Lanka case studies",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "sst-pol-2",
+    "subjectId": "social-science",
+    "name": "Federalism",
+    "description": "What is federalism, decentralisation in India",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-pol-3",
+    "subjectId": "social-science",
+    "name": "Gender, Religion and Caste",
+    "description": "Social differences and politics",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-pol-4",
+    "subjectId": "social-science",
+    "name": "Political Parties",
+    "description": "Need for parties, national and state parties",
+    "difficulty": "Easy",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-pol-5",
+    "subjectId": "social-science",
+    "name": "Outcomes of Democracy",
+    "description": "Accountability, economic growth and social diversity",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-eco-1",
+    "subjectId": "social-science",
+    "name": "Development",
+    "description": "Per capita income and human development index",
+    "difficulty": "Easy",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-eco-2",
+    "subjectId": "social-science",
+    "name": "Sectors of the Indian Economy",
+    "description": "Primary, secondary and tertiary sectors",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-eco-3",
+    "subjectId": "social-science",
+    "name": "Money and Credit",
+    "description": "Money as medium of exchange, terms of credit",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-eco-4",
+    "subjectId": "social-science",
+    "name": "Globalisation and the Indian Economy",
+    "description": "MNCs, foreign trade and impact of globalisation",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "sst-eco-5",
+    "subjectId": "social-science",
+    "name": "Consumer Rights",
+    "description": "Consumer protection act and rights",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-ff-1",
+    "subjectId": "english-ll",
+    "name": "A Letter to God",
+    "description": "Faith of a farmer named Lencho",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-ff-2",
+    "subjectId": "english-ll",
+    "name": "Nelson Mandela: Long Walk to Freedom",
+    "description": "Extract from Mandela's autobiography regarding apartheid",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-ff-3",
+    "subjectId": "english-ll",
+    "name": "Two Stories about Flying",
+    "description": "His First Flight and Black Aeroplane",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-ff-4",
+    "subjectId": "english-ll",
+    "name": "From the Diary of Anne Frank",
+    "description": "Accounts from the hiding during Nazi occupation",
+    "difficulty": "Medium",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-ff-5",
+    "subjectId": "english-ll",
+    "name": "Glimpses of India",
+    "description": "Stories about Goa, Coorg and Assam",
+    "difficulty": "Easy",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-ff-6",
+    "subjectId": "english-ll",
+    "name": "Mijbil the Otter",
+    "description": "Story of keeping an otter as a pet",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-ff-7",
+    "subjectId": "english-ll",
+    "name": "Madam Rides the Bus",
+    "description": "A young girl's first bus journey",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-ff-8",
+    "subjectId": "english-ll",
+    "name": "The Sermon at Benares",
+    "description": "Buddha's teachings on death and suffering",
+    "difficulty": "Hard",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-ff-9",
+    "subjectId": "english-ll",
+    "name": "The Proposal",
+    "description": "A one-act play about a marriage proposal",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-fp-1",
+    "subjectId": "english-ll",
+    "name": "A Triumph of Surgery",
+    "description": "Story of a pampered dog named Tricki",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-fp-2",
+    "subjectId": "english-ll",
+    "name": "The Thief’s Story",
+    "description": "Story of Hari Singh and Anil",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-fp-3",
+    "subjectId": "english-ll",
+    "name": "The Midnight Visitor",
+    "description": "A secret agent story featuring Ausable",
+    "difficulty": "Medium",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-fp-4",
+    "subjectId": "english-ll",
+    "name": "A Question of Trust",
+    "description": "Story of Horace Danby, a thief",
+    "difficulty": "Medium",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-fp-5",
+    "subjectId": "english-ll",
+    "name": "Footprints without Feet",
+    "description": "Story of an invisible scientist Griffin",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-fp-6",
+    "subjectId": "english-ll",
+    "name": "The Making of a Scientist",
+    "description": "Biography of Richard Ebright",
+    "difficulty": "Hard",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-fp-7",
+    "subjectId": "english-ll",
+    "name": "The Necklace",
+    "description": "Story of lost jewelry and its consequences",
+    "difficulty": "Easy",
+    "topicCount": 2
+  },
+  {
+    "id": "eng-fp-8",
+    "subjectId": "english-ll",
+    "name": "Bholi",
+    "description": "Transformation of a neglected girl",
+    "difficulty": "Medium",
+    "topicCount": 3
+  },
+  {
+    "id": "eng-fp-9",
+    "subjectId": "english-ll",
+    "name": "The Book That Saved the Earth",
+    "description": "A play about Martians attempting to invade Earth",
+    "difficulty": "Easy",
+    "topicCount": 2
   }
 ]

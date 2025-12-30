@@ -1,44 +1,30 @@
 [
   {
-    "id": "physics",
-    "name": "Physics",
-    "icon": "⚛️",
-    "description": "Study of matter, energy, and their interactions",
-    "chapterCount": 12
-  },
-  {
-    "id": "chemistry",
-    "name": "Chemistry",
-    "icon": "🧪",
-    "description": "Science of substances, their properties and reactions",
-    "chapterCount": 14
-  },
-  {
     "id": "mathematics",
     "name": "Mathematics",
     "icon": "📐",
-    "description": "Study of numbers, quantities, shapes and patterns",
-    "chapterCount": 15
+    "description": "Study of numbers, algebra, geometry, trigonometry, and statistics",
+    "chapterCount": 14
   },
   {
-    "id": "biology",
-    "name": "Biology",
-    "icon": "🧬",
-    "description": "Science of living organisms and life processes",
-    "chapterCount": 16
+    "id": "science",
+    "name": "Science",
+    "icon": "🧪",
+    "description": "Integrated study of Chemical substances, World of Living, and Natural Phenomena",
+    "chapterCount": 13
   },
   {
-    "id": "computer-science",
-    "name": "Computer Science",
-    "icon": "💻",
-    "description": "Study of computation, algorithms and information",
-    "chapterCount": 10
+    "id": "social-science",
+    "name": "Social Science",
+    "icon": "🌍",
+    "description": "Comprehensive study of History, Geography, Political Science, and Economics",
+    "chapterCount": 22
   },
   {
-    "id": "english",
-    "name": "English",
+    "id": "english-ll",
+    "name": "English Language & Literature",
     "icon": "📚",
-    "description": "Language, literature and communication skills",
-    "chapterCount": 8
+    "description": "Prose, poetry, and supplementary readings from First Flight and Footprints",
+    "chapterCount": 28
   }
 ]
