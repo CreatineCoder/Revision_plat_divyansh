@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 import './ChapterPicker.css';
 
 function ChapterPicker({ sessionContext, setSessionContext }) {
@@ -10,7 +12,7 @@ function ChapterPicker({ sessionContext, setSessionContext }) {
 
   useEffect(() => {
     // Fetch chapters for the selected subject
-    axios.get(`/api/chapters/${sessionContext.subject.id}`)
+    axios.get(`${BACKEND_URL}/api/chapters/${sessionContext.subject.id}`)
       .then(response => {
         setChapters(response.data);
         setLoading(false);

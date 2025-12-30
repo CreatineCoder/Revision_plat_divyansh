@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 import './AIResponseScreen.css';
 
 function AIResponseScreen({ sessionContext, setSessionContext }) {
@@ -30,7 +32,7 @@ function AIResponseScreen({ sessionContext, setSessionContext }) {
       request: getInitialRequestPrompt()
     };
 
-    axios.post('/api/ai/generate', requestData)
+    axios.post(`${BACKEND_URL}/api/ai/generate`, requestData)
       .then(response => {
         setAiResponse(response.data);
         setMessages([{
@@ -77,7 +79,7 @@ function AIResponseScreen({ sessionContext, setSessionContext }) {
     setSending(true);
 
     try {
-      const response = await axios.post('/api/ai/chat', {
+      const response = await axios.post(`${BACKEND_URL}/api/ai/chat`, {
         mode: sessionContext.mode,
         subject: sessionContext.subject.name,
         chapter: sessionContext.chapter.name,

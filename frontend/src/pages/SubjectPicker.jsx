@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 import './SubjectPicker.css';
 
 function SubjectPicker({ sessionContext, setSessionContext }) {
@@ -10,7 +12,7 @@ function SubjectPicker({ sessionContext, setSessionContext }) {
 
   useEffect(() => {
     // Fetch subjects from backend
-    axios.get('/api/subjects')
+    axios.get(`${BACKEND_URL}/api/subjects`)
       .then(response => {
         setSubjects(response.data);
         setLoading(false);
