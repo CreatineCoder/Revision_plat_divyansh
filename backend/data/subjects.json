@@ -1,0 +1,44 @@
+[
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "⚛️",
+    "description": "Study of matter, energy, and their interactions",
+    "chapterCount": 12
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "icon": "🧪",
+    "description": "Science of substances, their properties and reactions",
+    "chapterCount": 14
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "icon": "📐",
+    "description": "Study of numbers, quantities, shapes and patterns",
+    "chapterCount": 15
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "icon": "🧬",
+    "description": "Science of living organisms and life processes",
+    "chapterCount": 16
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "icon": "💻",
+    "description": "Study of computation, algorithms and information",
+    "chapterCount": 10
+  },
+  {
+    "id": "english",
+    "name": "English",
+    "icon": "📚",
+    "description": "Language, literature and communication skills",
+    "chapterCount": 8
+  }
+]

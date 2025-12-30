@@ -1,0 +1,194 @@
+[
+  {
+    "id": "physics-1",
+    "subjectId": "physics",
+    "name": "Laws of Motion",
+    "description": "Newton's three laws and their applications",
+    "difficulty": "Medium",
+    "topicCount": 8
+  },
+  {
+    "id": "physics-2",
+    "subjectId": "physics",
+    "name": "Work, Energy and Power",
+    "description": "Understanding energy transformations and work done",
+    "difficulty": "Medium",
+    "topicCount": 6
+  },
+  {
+    "id": "physics-3",
+    "subjectId": "physics",
+    "name": "Gravitation",
+    "description": "Universal law of gravitation and planetary motion",
+    "difficulty": "Hard",
+    "topicCount": 7
+  },
+  {
+    "id": "physics-4",
+    "subjectId": "physics",
+    "name": "Electrostatics",
+    "description": "Electric charges, fields and potential",
+    "difficulty": "Medium",
+    "topicCount": 9
+  },
+  {
+    "id": "chemistry-1",
+    "subjectId": "chemistry",
+    "name": "Atomic Structure",
+    "description": "Understanding atoms, electrons and atomic models",
+    "difficulty": "Medium",
+    "topicCount": 7
+  },
+  {
+    "id": "chemistry-2",
+    "subjectId": "chemistry",
+    "name": "Chemical Bonding",
+    "description": "Ionic, covalent and metallic bonds",
+    "difficulty": "Hard",
+    "topicCount": 8
+  },
+  {
+    "id": "chemistry-3",
+    "subjectId": "chemistry",
+    "name": "States of Matter",
+    "description": "Solid, liquid, gas and their properties",
+    "difficulty": "Easy",
+    "topicCount": 6
+  },
+  {
+    "id": "chemistry-4",
+    "subjectId": "chemistry",
+    "name": "Chemical Reactions",
+    "description": "Types of reactions and stoichiometry",
+    "difficulty": "Medium",
+    "topicCount": 10
+  },
+  {
+    "id": "math-1",
+    "subjectId": "mathematics",
+    "name": "Algebra",
+    "description": "Equations, inequalities and polynomials",
+    "difficulty": "Medium",
+    "topicCount": 12
+  },
+  {
+    "id": "math-2",
+    "subjectId": "mathematics",
+    "name": "Trigonometry",
+    "description": "Angles, ratios and identities",
+    "difficulty": "Hard",
+    "topicCount": 9
+  },
+  {
+    "id": "math-3",
+    "subjectId": "mathematics",
+    "name": "Calculus",
+    "description": "Differentiation and integration",
+    "difficulty": "Hard",
+    "topicCount": 11
+  },
+  {
+    "id": "math-4",
+    "subjectId": "mathematics",
+    "name": "Coordinate Geometry",
+    "description": "Lines, circles and conic sections",
+    "difficulty": "Medium",
+    "topicCount": 8
+  },
+  {
+    "id": "biology-1",
+    "subjectId": "biology",
+    "name": "Cell Structure",
+    "description": "Cell organelles and their functions",
+    "difficulty": "Easy",
+    "topicCount": 7
+  },
+  {
+    "id": "biology-2",
+    "subjectId": "biology",
+    "name": "Genetics",
+    "description": "DNA, genes and heredity",
+    "difficulty": "Hard",
+    "topicCount": 10
+  },
+  {
+    "id": "biology-3",
+    "subjectId": "biology",
+    "name": "Human Physiology",
+    "description": "Body systems and their functions",
+    "difficulty": "Medium",
+    "topicCount": 12
+  },
+  {
+    "id": "biology-4",
+    "subjectId": "biology",
+    "name": "Ecology",
+    "description": "Ecosystems and environmental interactions",
+    "difficulty": "Medium",
+    "topicCount": 8
+  },
+  {
+    "id": "cs-1",
+    "subjectId": "computer-science",
+    "name": "Data Structures",
+    "description": "Arrays, linked lists, stacks and queues",
+    "difficulty": "Medium",
+    "topicCount": 9
+  },
+  {
+    "id": "cs-2",
+    "subjectId": "computer-science",
+    "name": "Algorithms",
+    "description": "Sorting, searching and algorithm design",
+    "difficulty": "Hard",
+    "topicCount": 11
+  },
+  {
+    "id": "cs-3",
+    "subjectId": "computer-science",
+    "name": "Object-Oriented Programming",
+    "description": "Classes, objects and OOP principles",
+    "difficulty": "Medium",
+    "topicCount": 8
+  },
+  {
+    "id": "cs-4",
+    "subjectId": "computer-science",
+    "name": "Database Management",
+    "description": "SQL, normalization and database design",
+    "difficulty": "Medium",
+    "topicCount": 7
+  },
+  {
+    "id": "english-1",
+    "subjectId": "english",
+    "name": "Grammar and Composition",
+    "description": "Parts of speech, sentence structure and writing",
+    "difficulty": "Easy",
+    "topicCount": 10
+  },
+  {
+    "id": "english-2",
+    "subjectId": "english",
+    "name": "Poetry Analysis",
+    "description": "Understanding poetic devices and themes",
+    "difficulty": "Medium",
+    "topicCount": 6
+  },
+  {
+    "id": "english-3",
+    "subjectId": "english",
+    "name": "Prose and Fiction",
+    "description": "Short stories, novels and narrative techniques",
+    "difficulty": "Medium",
+    "topicCount": 8
+  },
+  {
+    "id": "english-4",
+    "subjectId": "english",
+    "name": "Writing Skills",
+    "description": "Essays, letters and creative writing",
+    "difficulty": "Easy",
+    "topicCount": 7
+  }
+]
